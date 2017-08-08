@@ -72,6 +72,7 @@ body, html{
   font-size:27px;
   letter-spacing:8px;
   text-transform:uppercase;
+
 }
 .ptext2{
   position:absolute;
@@ -82,6 +83,8 @@ body, html{
   font-size:27px;
   letter-spacing:8px;
   line-height: 150%
+  min-height:400px;
+
 }
 
 .ptext .border{
