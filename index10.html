@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Fullscreen Overlay Styles &amp; Effects | Demo 10</title>
+		<meta name="description" content="Fullscreen Overlay Styles &amp; Effects" />
+		<meta name="keywords" content="fullscreen overlay, overlay menu, inspiration, styles, effect, css" />
+		<meta name="author" content="Codrops" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/style10.css" />
+		<script src="js/snap.svg-min.js"></script>
+  		<script src="js/modernizr.custom.js"></script>
+  		<style>
+.container {
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+.bar1, .bar2, .bar3 {
+    width: 70px;
+    height: 8px;
+    background-color: #333;
+    margin: 3px 0;
+    transition: 0.20s;
+    margin-left:10px;
+    margin-top:20px;
+   
+    
+    
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 20px;
+    z-index: 100;
+    border-top: 0;
+}
+
+.change .bar1 {
+  	transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.change .bar2 {
+
+	 transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);}
+
+.change .bar3 {
+  transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+</style>
+	</head>
+	<body>
+		
+			<!-- Top Navigation -->
+		
+ <div class="pimg1">
+ <div class="container sticky" id = "trigger-overlay" onclick="myFunction(this)">
+  		<div class="bar1"></div>
+  		<div class="bar2"></div>
+  		<div class="bar3"></div>
+  		</div>
+		
+
+		<script>
+		function myFunction(x) {
+		    x.classList.toggle("change");   
+		}
+		</script>
+
+
+    <div class="ptext">
+      <span class="border">
+        Rachael Simpson
+      </span>
+    </div>
+  </div>
+ 
+
+  <section class="section section-light">
+    <h2></h2>
+    <p>
+      "Rachael Simpson’s working practice evolves around the theme of private and public in social, political and everyday life primarily in conversation, communication activity and event. Her practice includes text and spoken word, through video, sound, sculptures and performance (secret and posed) scripts, language and overheard conversations.
+
+      The ambition for her work is to have an active role in engaging others, believing in a practical exchange of ideas and playing with the gap between art and participation – with an element of open learning and accessibility."
+
+      - <a href="http://glasgowinternational.org/artists/rachael-simpson/">Glasgow Internatioanl 2016</a>
+    </p>
+  </section>
+
+  <div class="pimg2">
+    <div class="ptext2">
+      <span class="border trans">
+        ‘I know that it is not the English language that hurts me, but what the oppressors do with it, how they shape it to become a territory that limits and defines, how they make it a weapon that can shame’ - bell hooks
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2> </h2>
+    <p>
+      In Simpson’s, she’s set up a two row cinema, and is showing Westerns at specific times throughout the show, as a means for discussing the different issues, representations and roles at play in the films. - <a href = "http://www.theskinny.co.uk/art/emerging-artists/glasgow-school-of-art-degree-show-2016-review" > The Skinny </a>
+    </p>
+  </section>
+
+  <div class="pimg3">
+    <div class="ptext">
+      <span class="border trans">
+        "The Picket Line"
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <!-- <h2>Section Three</h2> -->
+<div>
+    <img src="./img/heraldlogo.png"/>
+    <img ... />
+</div>
+  </section>
+
+  <div class="pimg4">
+    <div class="ptext">
+      <span class="border">
+        Rachael Simpson
+      </span>
+    </div>
+  </div>
+			
+	
+		<!-- open/close -->
+		<div class="overlay overlay-boxes">
+			<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="101%" viewBox="0 0 1440 806" preserveAspectRatio="none">
+				<path d="m0.005959,200.364029l207.551124,0l0,204.342453l-207.551124,0l0,-204.342453z"/>
+				<path d="m0.005959,400.45401l207.551124,0l0,204.342499l-207.551124,0l0,-204.342499z"/>
+				<path d="m0.005959,600.544067l207.551124,0l0,204.342468l-207.551124,0l0,-204.342468z"/>
+				<path d="m205.752151,-0.36l207.551163,0l0,204.342437l-207.551163,0l0,-204.342437z"/>
+				<path d="m204.744629,200.364029l207.551147,0l0,204.342453l-207.551147,0l0,-204.342453z"/>
+				<path d="m204.744629,400.45401l207.551147,0l0,204.342499l-207.551147,0l0,-204.342499z"/>
+				<path d="m204.744629,600.544067l207.551147,0l0,204.342468l-207.551147,0l0,-204.342468z"/>
+				<path d="m410.416046,-0.36l207.551117,0l0,204.342437l-207.551117,0l0,-204.342437z"/>
+				<path d="m410.416046,200.364029l207.551117,0l0,204.342453l-207.551117,0l0,-204.342453z"/>
+				<path d="m410.416046,400.45401l207.551117,0l0,204.342499l-207.551117,0l0,-204.342499z"/>
+				<path d="m410.416046,600.544067l207.551117,0l0,204.342468l-207.551117,0l0,-204.342468z"/>
+				<path d="m616.087402,-0.36l207.551086,0l0,204.342437l-207.551086,0l0,-204.342437z"/>
+				<path d="m616.087402,200.364029l207.551086,0l0,204.342453l-207.551086,0l0,-204.342453z"/>
+				<path d="m616.087402,400.45401l207.551086,0l0,204.342499l-207.551086,0l0,-204.342499z"/>
+				<path d="m616.087402,600.544067l207.551086,0l0,204.342468l-207.551086,0l0,-204.342468z"/>
+				<path d="m821.748718,-0.36l207.550964,0l0,204.342437l-207.550964,0l0,-204.342437z"/>
+				<path d="m821.748718,200.364029l207.550964,0l0,204.342453l-207.550964,0l0,-204.342453z"/>
+				<path d="m821.748718,400.45401l207.550964,0l0,204.342499l-207.550964,0l0,-204.342499z"/>
+				<path d="m821.748718,600.544067l207.550964,0l0,204.342468l-207.550964,0l0,-204.342468z"/>
+				<path d="m1027.203979,-0.36l207.550903,0l0,204.342437l-207.550903,0l0,-204.342437z"/>
+				<path d="m1027.203979,200.364029l207.550903,0l0,204.342453l-207.550903,0l0,-204.342453z"/>
+				<path d="m1027.203979,400.45401l207.550903,0l0,204.342499l-207.550903,0l0,-204.342499z"/>
+				<path d="m1027.203979,600.544067l207.550903,0l0,204.342468l-207.550903,0l0,-204.342468z"/>
+				<path d="m1232.659302,-0.36l207.551147,0l0,204.342437l-207.551147,0l0,-204.342437z"/>
+				<path d="m1232.659302,200.364029l207.551147,0l0,204.342453l-207.551147,0l0,-204.342453z"/>
+				<path d="m1232.659302,400.45401l207.551147,0l0,204.342499l-207.551147,0l0,-204.342499z"/>
+				<path d="m1232.659302,600.544067l207.551147,0l0,204.342468l-207.551147,0l0,-204.342468z"/>
+				<path d="m-0.791443,-0.360001l207.551163,0l0,204.342438l-207.551163,0l0,-204.342438z"/>
+			</svg>
+			<button type="button" class="overlay-close">Close</button>
+			<nav>
+				<ul>
+					<li><a href="#">rachel simpson</a></li>
+					<li><a href="#">work with father</a></li>
+					<li><a href="#">words and language</a></li>
+					<li><a href="#">Video</a></li>
+					<li><a href="#">information</a></li>
+					
+				</ul>
+			</nav>
+		</div>
+		<script src="js/classie.js"></script>
+		<script src="js/demo10.js"></script>
+	</body>
+</html>
