@@ -168,9 +168,10 @@ background-size: cover;
 
 .section-last img {
 
-height:60px;
-width:130px;
-padding: 5px 15px;
+height:25px;
+width:125px;
+padding-left: 5px;
+padding-right:5px;
 
 }
 }
