@@ -29,21 +29,25 @@ body, html{
 .pimg1{
   background-image:url('../img/david_chair.jpg');
   min-height:100%;
+  poistion:fixed;
 }
 
 .pimg2{
   background-image:url('../img/embassy_rachael.jpg');
   min-height:400px;
+   poistion:fixed;
 }
 
 .pimg3{
   background-image:url('../img/rachael_chair.jpg');
   min-height:400px;
+   poistion:fixed;
 }
 
 .pimg4{
   background-image:url('../img/rachael_writing.jpg');
   min-height:100%;
+   poistion:fixed;
 }
 
 .section{
@@ -110,10 +114,6 @@ text-align:justify;
   .pimg1, .pimg2, .pimg3{
     background-attachment:fixed;
      z-index: -10;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   }
   .imagetext{
     top:10%;
