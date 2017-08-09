@@ -87,6 +87,11 @@ height:35px;
 width:135px;
 
 }
+.divsection-last{
+
+
+  width:100%;
+}
 
 .glasgowinternational{
 
@@ -176,9 +181,14 @@ background-size: cover;
 
 height:25px;
 width:125px;
-padding-left: 0px;
-padding-right:0px;
 
+}
+
+.divsection-last{
+
+
+  width:auto;
+  height:auto;
 }
 }
 a:link {
