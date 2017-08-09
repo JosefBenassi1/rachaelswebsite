@@ -57,7 +57,12 @@ body, html{
   text-align:center;
   padding:50px 80px;
 }
-
+.sectionvideo{
+  text-align:center;
+  padding-top:20px;
+  padding-left:20px;
+  paddingright:20px;
+}
 .section-light{
   background-color:#f4f4f4;
   color:#666;
@@ -136,6 +141,17 @@ text-align:justify;
 
 }
 
+.imagetextbreeze{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#fff;
+  font-size:27px;
+  letter-spacing:3px;
+  line-height: 150%
+}
+
 .ptext .border{
   background-color:#111;
   color:#fff;
@@ -146,7 +162,7 @@ text-align:justify;
   background-color:transparent;
 }
 
-@media(max-width:568px){
+@media(max-width:620px){
   .pimg1, .pimg2, .pimg3{
     background-attachment: no-repeat center center fixed; 
 -webkit-background-size: cover;
@@ -190,7 +206,14 @@ width:125px;
   width:auto;
   
 }
+
+.intrinsic-container iframe {
+  width: auto;
+  height: auto;
 }
+
+}
+
 a:link {
   font-size:17px;
   font-family:"Lato", sans-serif;
@@ -208,6 +231,13 @@ a:hover {
     background-color: transparent;
     text-decoration: underline;
 }
+
+.intrinsic-container {
+  position: justify;
+ 
+}
+ 
+ 
 
 
 
