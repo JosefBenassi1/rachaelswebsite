@@ -74,9 +74,18 @@ body, html{
   text-transform:uppercase;
 
 }
+
+.sectiontext{
+
+font-size:20px;
+width:100%;
+text-align:justify;
+
+}
+
 .imagetext{
   position:absolute;
-  top:10%;
+  top:25%;
   width:100%;
   text-align:center;
   color:#fff;
@@ -99,8 +108,23 @@ body, html{
 
 @media(max-width:568px){
   .pimg1, .pimg2, .pimg3{
-    background-attachment:scroll;
+    background-attachment:fixed;
   }
+  .imagetext{
+    top:10%;
+  }
+
+  .sectiontext{
+    
+    font-size:15px;
+    width:100%;
+  
+  }
+
+  .section{
+    
+  padding:20px 50px;
+}
 }
 a:link {
   font-size:17px;
