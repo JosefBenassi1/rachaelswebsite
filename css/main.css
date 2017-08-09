@@ -31,7 +31,7 @@ body, html{
 }
 
 .pimg1{
-  background-image:url('../img/david_chair.jpg');
+ 
   min-height:100%;
   
 }
@@ -43,13 +43,12 @@ body, html{
 }
 
 .pimg3{
-  background-image:url('../img/rachael_chair.jpg');
   min-height:400px;
    
 }
 
 .pimg4{
-  background-image:url('../img/pencil_words_launguages.jpg');
+
   min-height:100%;
    
 }
