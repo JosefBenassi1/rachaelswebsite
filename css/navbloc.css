@@ -47,7 +47,7 @@
 .overlay ul li {
 	display: block;
 	height: 40%;
-	height: calc(100% / 5);
+	height: calc(100% / 6);
 	min-height: 54px;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
