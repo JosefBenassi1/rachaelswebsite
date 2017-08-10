@@ -10,7 +10,12 @@ body, html{
   font-weight:400;
   line-height:1.8em;
   color:#666;
-  background: url('../img/davewriting.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;  background-size:round auto; background-attachment: fixed; padding: 0px 0px;
+}
+
+body.bimage{
+
+    background: url('../img/david_chair.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;  background-attachment: fixed;
+
 }
 
 .pimg1, .pimg2, .pimg3, .pimg4{
@@ -237,7 +242,7 @@ a:hover {
   position: justify;
  
 }
- 
+
  
 
 
