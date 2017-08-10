@@ -14,13 +14,12 @@ body, html{
 
 body.bimage{
 
-    background: url('../img/david_chair.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;  background-attachment: fixed;
+    background: url('../img/dadscreen.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;  background-attachment: fixed;
 
 }
 
 .pimg1, .pimg2, .pimg3, .pimg4{
   position:relative;
-  
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
@@ -62,6 +61,7 @@ body.bimage{
 .section{
   text-align:center;
   padding:50px 80px;
+  opacity:0.70;
   
 }
 .sectionvideo{
@@ -72,13 +72,14 @@ body.bimage{
 .section-light{
   background-color:#f4f4f4;
   color:#666;
-  opacity:0.70;
+  
 }
 
 .section-dark{
   
-  color:#ddd;
-  background-color: transparent;
+  background-color:#f4f4f4;
+  color:#666;
+  opacity:0.5;
 }
 .section-last{
   
@@ -86,7 +87,7 @@ body.bimage{
   padding:10px 30px;
   background-color:#979A9A;
   color:#ddd;
-  opacity:0.7;
+  
 
 }
 
