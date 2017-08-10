@@ -179,6 +179,11 @@ background-size: cover;
     background: url('../img/rachael_writing.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;  background-attachment: fixed;
 
 }
+ body.bimage2{
+
+    background: url('../img/davewriting.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;  background-attachment: fixed;
+
+}
 
 .pimg2, .pimg3{
 
