@@ -169,7 +169,7 @@ text-align:justify;
 }
 
 @media(max-width:620px){
-  .pimg1, .pimg2, .pimg3{
+  .pimg1, .pimg2, .pimg3,.pimg4{
     background-attachment: no-repeat center center fixed; 
 -webkit-background-size: cover;
 -moz-background-size: cover;
