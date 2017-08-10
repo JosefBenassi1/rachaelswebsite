@@ -12,11 +12,7 @@ body, html{
   color:#666;
 }
 
-body.bimage{
 
-    background: url('../img/rachael_writing.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;  background-attachment: fixed;
-
-}
 
 .pimg1, .pimg2, .pimg3, .pimg4{
   position:relative;
@@ -77,9 +73,9 @@ body.bimage{
 
 .section-dark{
   
-  background-color:#f4f4f4;
+  background-color:#bab6b6;
   color:#666;
-  opacity:0.5;
+  
 }
 .section-last{
   
@@ -178,10 +174,26 @@ text-align:justify;
 background-size: cover;
      z-index: -10;
   }
+  body.bimage{
+
+    background: url('../img/rachael_writing.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;  background-attachment: fixed;
+
+}
+
+.pimg2, .pimg3{
+
+  min-height:200px;
+
+}
+
   .imagetext{
     top:10%;
-  }
+    width:auto;
+    font-size:19px;
+    position:justify;
 
+  }
+ 
   .sectiontext{
     
     font-size:15px;
