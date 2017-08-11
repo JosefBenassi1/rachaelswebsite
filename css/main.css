@@ -124,6 +124,15 @@ text-align:justify;
 
 }
 
+.sectiontext2{
+
+font-size:20px;
+width:100%;
+text-align:justify;
+color: white;
+
+}
+
 
 .imagetext{
   position:absolute;
@@ -204,10 +213,17 @@ background-size: cover;
 
   padding:20px 50px;
 }
+.section-light{
+
+opacity:0.9;
+  }
+
 .section-dark{
 
 background-color:transparent;
   }
+
+
 .section-last{
   
   
